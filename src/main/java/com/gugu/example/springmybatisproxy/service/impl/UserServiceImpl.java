@@ -6,6 +6,8 @@ import com.gugu.example.springmybatisproxy.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
+
 /**
  * @author gugu
  * @Classname UserServiceimpl
@@ -13,7 +15,7 @@ import org.springframework.stereotype.Service;
  * @Date 2022/7/17 9:09
  */
 @Service
-public class UserServiceimpl implements UserService {
+public class UserServiceImpl implements UserService {
     @Autowired
     private UserMapper userMapper;
 
